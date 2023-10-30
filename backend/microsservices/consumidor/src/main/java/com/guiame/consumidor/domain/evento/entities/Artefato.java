@@ -18,6 +18,7 @@ public class Artefato {
     private UUID id;
     private String descricao;
     private Boolean ativo;
+    private String nome_wifi;
     private Map<String, Object> comportamentos;
 
     @JsonProperty("id_tipo")
